@@ -108,7 +108,7 @@ Jawab dalam Bahasa Indonesia yang santai dan mudah dipahami.
     const aiResult = groqResponse.data.choices[0].message.content;
 
     // 3. Cari video
-    const videoLink = await cariVideoYoutube(`cara daur ulang sampah ${jenisSampah}`);
+    const videoLink = await cariVideoYoutube(`cara daur ulang sampah ${jenisSampah} dengan cara rumahan`);
 
     res.json({
       jenis: jenisSampah,
